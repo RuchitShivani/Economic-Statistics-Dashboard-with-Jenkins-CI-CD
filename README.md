@@ -20,7 +20,18 @@ This project is a simple and colorful web-based dashboard that displays GDP stat
 ## 🛠️ Setup Instructions
 
 1. **Create Project Folder**
+Paste the Dashboard Code
+Use the colorful dashboard HTML from the project.
 
+Create Jenkins Pipeline
+
+In Jenkins, set up a freestyle job or pipeline that:
+
+Pulls the HTML file from the folder
+
+Copies it to a local deployment directory (deployment-folder)
+Run Jenkins Job
+After the job finishes, open:
    ```bash
    mkdir frontend-project
    cd frontend-project
