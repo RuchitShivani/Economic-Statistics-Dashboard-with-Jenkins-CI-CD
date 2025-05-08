@@ -1,0 +1,10 @@
+pipeline {
+  agent any
+  stages {
+    stage('Deploy') {
+      steps {
+        bat 'xcopy /Y /I C:\\Users\\Ruchit\\frontend-project\\index.html C:\\Users\\Ruchit\\deployment-folder\\'
+      }
+    }
+  }
+}
